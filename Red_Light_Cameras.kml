@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="RedLightCamera" id="RedLightCamera">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="MUN" type="string"></SimpleField>
+	<SimpleField name="CAMERA_NUM" type="int"></SimpleField>
+	<SimpleField name="Street" type="string"></SimpleField>
+	<SimpleField name="StrInt1" type="string"></SimpleField>
+	<SimpleField name="StrInt2" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="float"></SimpleField>
+	<SimpleField name="Longitude" type="float"></SimpleField>
+</Schema>
+<Folder><name>RedLightCamera</name>
+  <Placemark>
+	<name>Airport Road @ Williams Parkway</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">1</SimpleData>
+		<SimpleData name="MUN">Brampton</SimpleData>
+		<SimpleData name="CAMERA_NUM">1</SimpleData>
+		<SimpleData name="Street">Airport Road</SimpleData>
+		<SimpleData name="StrInt1">Williams Parkway</SimpleData>
+		<SimpleData name="Latitude">43.7532868004831</SimpleData>
+		<SimpleData name="Longitude">-79.7088789771569</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.7088824739999,43.753295388</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Derry Road @ Airport Road</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">2</SimpleData>
+		<SimpleData name="MUN">Mississauga</SimpleData>
+		<SimpleData name="CAMERA_NUM">2</SimpleData>
+		<SimpleData name="Street">Derry Road</SimpleData>
+		<SimpleData name="StrInt1">Airport Road</SimpleData>
+		<SimpleData name="Latitude">43.7035904035999</SimpleData>
+		<SimpleData name="Longitude">-79.6424805366196</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.6424840079999,43.703598985</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Derry Road @ Rexwood Road</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="MUN">Mississauga</SimpleData>
+		<SimpleData name="CAMERA_NUM">3</SimpleData>
+		<SimpleData name="Street">Derry Road</SimpleData>
+		<SimpleData name="StrInt1">Rexwood Road</SimpleData>
+		<SimpleData name="Latitude">43.7162787219445</SimpleData>
+		<SimpleData name="Longitude">-79.6272879771314</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.627291444,43.7162873070001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Mississauga Rd @ Meadowvale Boulevard</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">4</SimpleData>
+		<SimpleData name="MUN">Mississauga</SimpleData>
+		<SimpleData name="CAMERA_NUM">5</SimpleData>
+		<SimpleData name="Street">Mississauga Rd</SimpleData>
+		<SimpleData name="StrInt1">Meadowvale Boulevard</SimpleData>
+		<SimpleData name="Latitude">43.6123379331509</SimpleData>
+		<SimpleData name="Longitude">-79.7551267893381</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.755130288,43.6123464940001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Erin Mills Parkway @ Folkway Drive</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">5</SimpleData>
+		<SimpleData name="MUN">Mississauga</SimpleData>
+		<SimpleData name="CAMERA_NUM">6</SimpleData>
+		<SimpleData name="Street">Erin Mills Parkway</SimpleData>
+		<SimpleData name="StrInt1">Folkway Drive</SimpleData>
+		<SimpleData name="Latitude">43.5508547481423</SimpleData>
+		<SimpleData name="Longitude">-79.6898804493891</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.689883922,43.550863301</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Queen Street East @ West Drive/Laurelcrest Street</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">6</SimpleData>
+		<SimpleData name="MUN">Brampton</SimpleData>
+		<SimpleData name="CAMERA_NUM">7</SimpleData>
+		<SimpleData name="Street">Queen Street East</SimpleData>
+		<SimpleData name="StrInt1">West Drive</SimpleData>
+		<SimpleData name="StrInt2">Laurelcrest Street</SimpleData>
+		<SimpleData name="Latitude">43.7090440231584</SimpleData>
+		<SimpleData name="Longitude">-79.7344580376793</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.7344615389999,43.709052602</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Derry Road @ Winston Churchill Boulevard</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">7</SimpleData>
+		<SimpleData name="MUN">Mississauga</SimpleData>
+		<SimpleData name="CAMERA_NUM">8</SimpleData>
+		<SimpleData name="Street">Derry Road</SimpleData>
+		<SimpleData name="StrInt1">Winston Churchill Boulevard</SimpleData>
+		<SimpleData name="Latitude">43.5881459331497</SimpleData>
+		<SimpleData name="Longitude">-79.7711106663716</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.7711141679999,43.588154489</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Erin Mills Parkway @ Credit Valley Road</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">8</SimpleData>
+		<SimpleData name="MUN">Mississauga</SimpleData>
+		<SimpleData name="CAMERA_NUM">9</SimpleData>
+		<SimpleData name="Street">Erin Mills Parkway</SimpleData>
+		<SimpleData name="StrInt1">Credit Valley Road</SimpleData>
+		<SimpleData name="Latitude">43.5565836745174</SimpleData>
+		<SimpleData name="Longitude">-79.7019905074916</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.701993984,43.5565922280001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Derry Road @ Tomken Road</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">9</SimpleData>
+		<SimpleData name="MUN">Mississauga</SimpleData>
+		<SimpleData name="CAMERA_NUM">10</SimpleData>
+		<SimpleData name="Street">Derry Road</SimpleData>
+		<SimpleData name="StrInt1">Tomken Road</SimpleData>
+		<SimpleData name="Latitude">43.6656502247406</SimpleData>
+		<SimpleData name="Longitude">-79.6848797723467</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.6848832539999,43.665658798</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Steeles Avenue @ Bramalea Road</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">10</SimpleData>
+		<SimpleData name="MUN">Brampton</SimpleData>
+		<SimpleData name="CAMERA_NUM">11</SimpleData>
+		<SimpleData name="Street">Steeles Avenue</SimpleData>
+		<SimpleData name="StrInt1">Bramalea Road</SimpleData>
+		<SimpleData name="Latitude">43.7048831958046</SimpleData>
+		<SimpleData name="Longitude">-79.690529831172</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.690533318,43.7048917760001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Airport Road @ Queen Street East</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">11</SimpleData>
+		<SimpleData name="MUN">Brampton</SimpleData>
+		<SimpleData name="CAMERA_NUM">12</SimpleData>
+		<SimpleData name="Street">Airport Road</SimpleData>
+		<SimpleData name="StrInt1">Queen Street East</SimpleData>
+		<SimpleData name="Latitude">43.7435221441894</SimpleData>
+		<SimpleData name="Longitude">-79.6958385178415</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.695842009,43.7435307310001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Derry Road @ Hurontario Street</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">12</SimpleData>
+		<SimpleData name="MUN">Mississauga</SimpleData>
+		<SimpleData name="CAMERA_NUM">13</SimpleData>
+		<SimpleData name="Street">Derry Road</SimpleData>
+		<SimpleData name="StrInt1">Hurontario Street</SimpleData>
+		<SimpleData name="Latitude">43.6461313205849</SimpleData>
+		<SimpleData name="Longitude">-79.706159391307</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.706162878,43.646139889</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Erin Mills Parkway @ Eglinton Avenue West</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">13</SimpleData>
+		<SimpleData name="MUN">Mississauga</SimpleData>
+		<SimpleData name="CAMERA_NUM">14</SimpleData>
+		<SimpleData name="Street">Erin Mills Parkway</SimpleData>
+		<SimpleData name="StrInt1">Eglinton Avenue West</SimpleData>
+		<SimpleData name="Latitude">43.5588621433206</SimpleData>
+		<SimpleData name="Longitude">-79.7067412516782</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.70674473,43.558870697</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Steeles Avenue East @ Resolution Drive</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">14</SimpleData>
+		<SimpleData name="MUN">Brampton</SimpleData>
+		<SimpleData name="CAMERA_NUM">15</SimpleData>
+		<SimpleData name="Street">Steeles Avenue East</SimpleData>
+		<SimpleData name="StrInt1">Resolution Drive</SimpleData>
+		<SimpleData name="Latitude">43.6780420679872</SimpleData>
+		<SimpleData name="Longitude">-79.7199268069847</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.7199303,43.6780506420001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Steeles Avenue East @ Bramalea GO Station</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">15</SimpleData>
+		<SimpleData name="MUN">Brampton</SimpleData>
+		<SimpleData name="CAMERA_NUM">16</SimpleData>
+		<SimpleData name="Street">Steeles Avenue East</SimpleData>
+		<SimpleData name="StrInt1">Bramalea GO Station</SimpleData>
+		<SimpleData name="Latitude">43.7025979097913</SimpleData>
+		<SimpleData name="Longitude">-79.69295173315</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.69295522,43.7026064890001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Derry Road West @ Financial Drive</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">16</SimpleData>
+		<SimpleData name="MUN">Mississauga</SimpleData>
+		<SimpleData name="CAMERA_NUM">17</SimpleData>
+		<SimpleData name="Street">Derry Road West</SimpleData>
+		<SimpleData name="StrInt1">Financial Drive</SimpleData>
+		<SimpleData name="Latitude">43.6117368942775</SimpleData>
+		<SimpleData name="Longitude">-79.7492439046772</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.749247402,43.6117454550001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Dixie Road @ Orenda Road/Birchbank Road</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">17</SimpleData>
+		<SimpleData name="MUN">Brampton</SimpleData>
+		<SimpleData name="CAMERA_NUM">18</SimpleData>
+		<SimpleData name="Street">Dixie Road</SimpleData>
+		<SimpleData name="StrInt1">Orenda Road</SimpleData>
+		<SimpleData name="StrInt2">Birchbank Road</SimpleData>
+		<SimpleData name="Latitude">43.7016430924663</SimpleData>
+		<SimpleData name="Longitude">-79.7105361221644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.710539615,43.701651671</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Winston Churchill Boulevard @ Bromsgrove Road</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">18</SimpleData>
+		<SimpleData name="MUN">Mississauga</SimpleData>
+		<SimpleData name="CAMERA_NUM">19</SimpleData>
+		<SimpleData name="Street">Winston Churchill Boulevard</SimpleData>
+		<SimpleData name="StrInt1">Bromsgrove Road</SimpleData>
+		<SimpleData name="Latitude">43.500552863595</SimpleData>
+		<SimpleData name="Longitude">-79.6512401897049</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.651243646,43.5005614090001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Derry Road West @ Meadowvale Boulevard/Creditview</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">19</SimpleData>
+		<SimpleData name="MUN">Mississauga</SimpleData>
+		<SimpleData name="CAMERA_NUM">20</SimpleData>
+		<SimpleData name="Street">Derry Road West</SimpleData>
+		<SimpleData name="StrInt1">Meadowvale Boulevard</SimpleData>
+		<SimpleData name="StrInt2">Creditview</SimpleData>
+		<SimpleData name="Latitude">43.614122074477</SimpleData>
+		<SimpleData name="Longitude">-79.7447405959187</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.744744092,43.614130636</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Britannia Road West @ Latimer Drive</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">20</SimpleData>
+		<SimpleData name="MUN">Mississauga</SimpleData>
+		<SimpleData name="CAMERA_NUM">21</SimpleData>
+		<SimpleData name="Street">Britannia Road West</SimpleData>
+		<SimpleData name="StrInt1">Latimer Drive</SimpleData>
+		<SimpleData name="Latitude">43.6091796820832</SimpleData>
+		<SimpleData name="Longitude">-79.6990026583406</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.6990061389999,43.609188245</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Derry Road West @ Shelter Bay Road/Copenhagen</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">21</SimpleData>
+		<SimpleData name="MUN">Mississauga</SimpleData>
+		<SimpleData name="CAMERA_NUM">22</SimpleData>
+		<SimpleData name="Street">Derry Road West</SimpleData>
+		<SimpleData name="StrInt1">Shelter Bay Road</SimpleData>
+		<SimpleData name="StrInt2">Copenhagen</SimpleData>
+		<SimpleData name="Latitude">43.5908592796379</SimpleData>
+		<SimpleData name="Longitude">-79.7681568082149</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.7681603089999,43.590867836</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Airport Road @ Steeles Avenue East</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">22</SimpleData>
+		<SimpleData name="MUN">Brampton</SimpleData>
+		<SimpleData name="CAMERA_NUM">23</SimpleData>
+		<SimpleData name="Street">Airport Road</SimpleData>
+		<SimpleData name="StrInt1">Steeles Avenue East</SimpleData>
+		<SimpleData name="Latitude">43.7237275051739</SimpleData>
+		<SimpleData name="Longitude">-79.669133646573</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.669137128,43.7237360890001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Dixie Road @ Queen Street East</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">23</SimpleData>
+		<SimpleData name="MUN">Brampton</SimpleData>
+		<SimpleData name="CAMERA_NUM">24</SimpleData>
+		<SimpleData name="Street">Dixie Road</SimpleData>
+		<SimpleData name="StrInt1">Queen Street East</SimpleData>
+		<SimpleData name="Latitude">43.7148398841407</SimpleData>
+		<SimpleData name="Longitude">-79.7280674823077</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.728070982,43.7148484640001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Queen Street East @ Torbram Road</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">24</SimpleData>
+		<SimpleData name="MUN">Brampton</SimpleData>
+		<SimpleData name="CAMERA_NUM">25</SimpleData>
+		<SimpleData name="Street">Queen Street East</SimpleData>
+		<SimpleData name="StrInt1">Torbram Road</SimpleData>
+		<SimpleData name="Latitude">43.734088091349</SimpleData>
+		<SimpleData name="Longitude">-79.7067156262598</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.7067191209999,43.734096676</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Airport Road @ Bovaird Drive/Castlemore Road</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">25</SimpleData>
+		<SimpleData name="MUN">Brampton</SimpleData>
+		<SimpleData name="CAMERA_NUM">26</SimpleData>
+		<SimpleData name="Street">Airport Road</SimpleData>
+		<SimpleData name="StrInt1">Bovaird Drive</SimpleData>
+		<SimpleData name="StrInt2">Castlemore Road</SimpleData>
+		<SimpleData name="Latitude">43.7633422978916</SimpleData>
+		<SimpleData name="Longitude">-79.7224071485471</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.72241065,43.7633508860001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bovaird Drive West @ Brisdale Drive/Pertosa Drive</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">26</SimpleData>
+		<SimpleData name="MUN">Brampton</SimpleData>
+		<SimpleData name="CAMERA_NUM">27</SimpleData>
+		<SimpleData name="Street">Bovaird Drive West</SimpleData>
+		<SimpleData name="StrInt1">Brisdale Drive</SimpleData>
+		<SimpleData name="StrInt2">Pertosa Drive</SimpleData>
+		<SimpleData name="Latitude">43.6831524440572</SimpleData>
+		<SimpleData name="Longitude">-79.8118817552722</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.811885278,43.6831610140001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Steeles Avenue West @ Tait Boulevard/Windmill</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">27</SimpleData>
+		<SimpleData name="MUN">Brampton</SimpleData>
+		<SimpleData name="CAMERA_NUM">28</SimpleData>
+		<SimpleData name="Street">Steeles Avenue West</SimpleData>
+		<SimpleData name="StrInt1">Tait Boulevard</SimpleData>
+		<SimpleData name="StrInt2">Windmill</SimpleData>
+		<SimpleData name="Latitude">43.653613649142</SimpleData>
+		<SimpleData name="Longitude">-79.7468881313116</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.746891631,43.6536222170001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Steeles Avenue @ Rutherford Road/First Gulf Blvd.</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">28</SimpleData>
+		<SimpleData name="MUN">Brampton</SimpleData>
+		<SimpleData name="CAMERA_NUM">4</SimpleData>
+		<SimpleData name="Street">Steeles Avenue</SimpleData>
+		<SimpleData name="StrInt1">Rutherford Road</SimpleData>
+		<SimpleData name="StrInt2">First Gulf Blvd.</SimpleData>
+		<SimpleData name="Latitude">43.6805797089741</SimpleData>
+		<SimpleData name="Longitude">-79.7172456560902</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.7172491489999,43.6805882830001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Derry Road West @ Syntex Drive/Syntex Court</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">29</SimpleData>
+		<SimpleData name="MUN">Mississauga</SimpleData>
+		<SimpleData name="CAMERA_NUM">29</SimpleData>
+		<SimpleData name="Street">Derry Road West</SimpleData>
+		<SimpleData name="StrInt1">Syntex Drive</SimpleData>
+		<SimpleData name="StrInt2">Syntex Court</SimpleData>
+		<SimpleData name="Latitude">43.605043783033</SimpleData>
+		<SimpleData name="Longitude">-79.7546187568568</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.754622255,43.6050523420001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Queensway East @ Camilla Road</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">30</SimpleData>
+		<SimpleData name="MUN">Mississauga</SimpleData>
+		<SimpleData name="CAMERA_NUM">30</SimpleData>
+		<SimpleData name="Street">Queensway East</SimpleData>
+		<SimpleData name="StrInt1">Camilla Road</SimpleData>
+		<SimpleData name="Latitude">43.5776698661238</SimpleData>
+		<SimpleData name="Longitude">-79.6035457386633</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.603549186,43.5776784280001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Britannia Road West @ Tillsdown Dr/River Grove Ave</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">31</SimpleData>
+		<SimpleData name="MUN">Mississauga</SimpleData>
+		<SimpleData name="CAMERA_NUM">31</SimpleData>
+		<SimpleData name="Street">Britannia Road West</SimpleData>
+		<SimpleData name="StrInt1">Tillsdown Dr</SimpleData>
+		<SimpleData name="StrInt2">River Grove Ave</SimpleData>
+		<SimpleData name="Latitude">43.5950235848095</SimpleData>
+		<SimpleData name="Longitude">-79.7148327458929</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.7148362299999,43.5950321440001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cawthra Road @ Atwater Ave</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">32</SimpleData>
+		<SimpleData name="MUN">Mississauga</SimpleData>
+		<SimpleData name="CAMERA_NUM">32</SimpleData>
+		<SimpleData name="Street">Cawthra Road</SimpleData>
+		<SimpleData name="StrInt1">Atwater Ave</SimpleData>
+		<SimpleData name="Latitude">43.5746601826628</SimpleData>
+		<SimpleData name="Longitude">-79.5731490010924</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.573152439,43.5746687450001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Britannia Road West @ Grossbeak Dr/Delle Donne Dr</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">33</SimpleData>
+		<SimpleData name="MUN">Mississauga</SimpleData>
+		<SimpleData name="CAMERA_NUM">33</SimpleData>
+		<SimpleData name="Street">Britannia Road West</SimpleData>
+		<SimpleData name="StrInt1">Grossbeak Dr</SimpleData>
+		<SimpleData name="StrInt2">Delle Donne Dr</SimpleData>
+		<SimpleData name="Latitude">43.5614725675469</SimpleData>
+		<SimpleData name="Longitude">-79.7524899311751</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.752493425,43.5614811190001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Mayfield Road @ Kennedy Road</name>
+	<ExtendedData><SchemaData schemaUrl="#RedLightCamera">
+		<SimpleData name="OBJECTID">34</SimpleData>
+		<SimpleData name="MUN">Brampton</SimpleData>
+		<SimpleData name="CAMERA_NUM">34</SimpleData>
+		<SimpleData name="Street">Mayfield Road</SimpleData>
+		<SimpleData name="StrInt1">Kennedy Road</SimpleData>
+		<SimpleData name="Latitude">43.7436625245659</SimpleData>
+		<SimpleData name="Longitude">-79.814482578343</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.814486108,43.743671105</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
